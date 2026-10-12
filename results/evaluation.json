@@ -1,0 +1,86 @@
+{
+  "events_scored": 55329,
+  "attack_events": 428,
+  "days": 29.8,
+  "rule_risk": {
+    "roc_auc": 0.9997,
+    "pr_auc": 0.9597,
+    "recall@risk>=40": 1.0,
+    "false_positive_rate@risk>=40": 0.00209,
+    "benign_alerts_per_day": 3.9
+  },
+  "anomaly_risk": {
+    "roc_auc": 0.9966,
+    "pr_auc": 0.8532,
+    "recall@risk>=40": 0.993,
+    "false_positive_rate@risk>=40": 0.02315,
+    "benign_alerts_per_day": 42.7
+  },
+  "hybrid_risk": {
+    "roc_auc": 0.9998,
+    "pr_auc": 0.9756,
+    "recall@risk>=40": 1.0,
+    "false_positive_rate@risk>=40": 0.00242,
+    "benign_alerts_per_day": 4.5
+  },
+  "per_scenario_hybrid": {
+    "credential_stuffing": {
+      "events": 209,
+      "incidents": 10,
+      "incidents_detected": 1.0,
+      "incidents_blocked": 1.0,
+      "event_recall": 1.0
+    },
+    "data_exfiltration": {
+      "events": 56,
+      "incidents": 11,
+      "incidents_detected": 1.0,
+      "incidents_blocked": 0.909,
+      "event_recall": 1.0
+    },
+    "dormant_account": {
+      "events": 16,
+      "incidents": 9,
+      "incidents_detected": 1.0,
+      "incidents_blocked": 1.0,
+      "event_recall": 1.0
+    },
+    "impossible_travel": {
+      "events": 11,
+      "incidents": 11,
+      "incidents_detected": 1.0,
+      "incidents_blocked": 1.0,
+      "event_recall": 1.0
+    },
+    "mfa_fatigue": {
+      "events": 98,
+      "incidents": 9,
+      "incidents_detected": 1.0,
+      "incidents_blocked": 1.0,
+      "event_recall": 1.0
+    },
+    "privilege_misuse": {
+      "events": 28,
+      "incidents": 14,
+      "incidents_detected": 1.0,
+      "incidents_blocked": 1.0,
+      "event_recall": 1.0
+    },
+    "session_hijack": {
+      "events": 10,
+      "incidents": 10,
+      "incidents_detected": 1.0,
+      "incidents_blocked": 1.0,
+      "event_recall": 1.0
+    }
+  },
+  "decisions_benign": {
+    "allow": 54768,
+    "step_up_mfa": 95,
+    "block_and_alert": 38
+  },
+  "decisions_attack": {
+    "block_and_alert": 423,
+    "step_up_mfa": 5
+  }
+}
