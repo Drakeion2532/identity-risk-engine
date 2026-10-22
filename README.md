@@ -1,8 +1,8 @@
-# Identity Risk Engine: UEBA for Zero Trust Access
+# Identity Risk Engine: Account-Takeover Detection
 
 [![tests](https://github.com/Drakeion2532/identity-risk-engine/actions/workflows/tests.yml/badge.svg)](https://github.com/Drakeion2532/identity-risk-engine/actions/workflows/tests.yml)
 
-A streaming **User & Entity Behaviour Analytics (UEBA)** engine. It scores every login and app access against the user's own baseline and their role's peer group, explains why an event looks risky, and returns a **Zero Trust decision**: `allow`, `step_up_mfa` or `block_and_alert`.
+A streaming **User & Entity Behaviour Analytics (UEBA)** engine for **Zero Trust access** that detects account takeover. It scores every login and app access against the user's own baseline and their role's peer group, explains why an event looks risky, and returns a **Zero Trust decision**: `allow`, `step_up_mfa` or `block_and_alert`.
 
 It is designed to sit behind an SSO / identity provider hook (Okta, Entra ID, Saviynt, Keycloak), which is where most modern breaches start: stolen credentials, MFA fatigue and session hijacking.
 
