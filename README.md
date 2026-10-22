@@ -1,12 +1,14 @@
 # Identity Risk Engine: UEBA for Zero Trust Access
 
+[![tests](https://github.com/Drakeion2532/identity-risk-engine/actions/workflows/tests.yml/badge.svg)](https://github.com/Drakeion2532/identity-risk-engine/actions/workflows/tests.yml)
+
 A streaming **User & Entity Behaviour Analytics (UEBA)** engine. It scores every login and app access against the user's own baseline and their role's peer group, explains why an event looks risky, and returns a **Zero Trust decision**: `allow`, `step_up_mfa` or `block_and_alert`.
 
 It is designed to sit behind an SSO / identity provider hook (Okta, Entra ID, Saviynt, Keycloak), which is where most modern breaches start: stolen credentials, MFA fatigue and session hijacking.
 
 ## Why this matters
 
-Over 80% of breaches involve compromised credentials. Static rules ("block country X") are either too noisy or too easy to evade. This engine applies the **"never trust, always verify"** principle of Zero Trust. Every event is judged in context:
+Stolen or weak credentials are consistently among the top ways attackers get in (see the annual Verizon Data Breach Investigations Report). Static rules ("block country X") are either too noisy or too easy to evade. This engine applies the **"never trust, always verify"** principle of Zero Trust. Every event is judged in context:
 
 * *Is this normal **for this user**?* (their countries, devices, hours, download volumes)
 * *Is this normal **for people in this role**?* (a sales rep opening `iam_admin` is not)
@@ -53,6 +55,8 @@ Every alert carries **human-readable reasons**, so an analyst can see why a logi
 **Incident-level results (hybrid):** all 74 attack incidents across 7 scenarios were detected, and 73 were blocked outright (one exfiltration incident got step-up MFA instead). Of 54,901 benign events, 99.76% were allowed silently, 95 got a step-up MFA prompt and 38 were blocked. That is about 4.5 analyst touches per day for 400 users.
 
 The Isolation Forest on its own raises about 10× more false alerts. Requiring corroboration from an explainable signal is what makes it usable.
+
+**What the ML adds over rules alone:** the rules are already strong here (PR-AUC 0.960 at 3.9 benign alerts/day). The hybrid lifts PR-AUC to 0.976, mainly by ranking real attacks above borderline benign events, at the cost of about 0.6 extra benign alerts a day. On synthetic data whose attacks were written alongside the rules, that is a modest gain; on real logs, with attacks the rules were not written for, the unsupervised layer is where new patterns would surface first.
 
 > **Honest caveat:** the dataset is synthetic (real identity logs are confidential), and the attack scenarios were written alongside the detectors. Treat these numbers as proof that the engine works end-to-end. They are not a real-world benchmark. The next step would be replaying real IdP logs (Okta System Log, Entra sign-in logs) through `RiskEngine.process`.
 
