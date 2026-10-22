@@ -60,6 +60,30 @@ The Isolation Forest on its own raises about 10× more false alerts. Requiring c
 
 > **Honest caveat:** the dataset is synthetic (real identity logs are confidential), and the attack scenarios were written alongside the detectors. Treat these numbers as proof that the engine works end-to-end. They are not a real-world benchmark. The next step would be replaying real IdP logs (Okta System Log, Entra sign-in logs) through `RiskEngine.process`.
 
+## Run it on real identity-provider logs (Okta)
+
+The engine's input is close to what identity providers already log, so `irisk/okta.py` replays an **Okta System Log** export (the JSON from `GET /api/v1/logs`, or NDJSON) through it and writes a decision for every event:
+
+```bash
+python -m irisk.okta examples/okta_system_log_sample.json --roles examples/roles.csv
+# 183 Okta events scored -> 7 would be stepped up or blocked. Written to results/okta_decisions.csv
+```
+
+* **Roles:** Okta logs don't record a job role, so `--roles` takes a `user,role` CSV, the kind exported from HR or a directory.
+* **MFA:** push denials (`user.mfa.okta_verify.deny_push`) and approvals become the MFA sequence the fatigue detector needs.
+* **Networks:** Okta's `isProxy` flag and the network operator name identify cloud or hosting connections.
+
+The sample is illustrative but follows Okta's documented event format. It holds a month of normal activity for two employees, one genuine business trip (Pune → Bengaluru) and an MFA push-bombing attack from a DigitalOcean server in Amsterdam at 02:00 IST. The output:
+
+| Event | Decision | Why |
+|---|---|---|
+| Password login from Amsterdam | step-up MFA | new country, new device, hosting provider, unusual hour |
+| 4 × MFA push denied | step-up MFA | MFA denied, hosting provider |
+| MFA approved after the denials | **block and alert** | many MFA pushes denied, then approved |
+| Business trip to Bengaluru | allow | nothing unusual for the user |
+
+The adapter has been checked against this sample and its unit tests, not against a live Okta tenant. On a real tenant, expect to tune the thresholds and the hosting-network list.
+
 ## Run it
 
 ```bash
@@ -85,12 +109,14 @@ irisk/
   engine.py     streaming per-user / peer-group baselines, risk signals, Zero-Trust decisions
   evaluate.py   replay + Isolation Forest + hybrid scoring + metrics
   api.py        FastAPI endpoint for an IdP / SSO hook
+  okta.py       replay Okta System Log exports through the engine
 tests/          unit tests for each detection
 ```
 
 ## Roadmap
 
-- [ ] Connectors for Okta System Log / Microsoft Entra sign-in logs / AWS CloudTrail
+- [x] Okta System Log adapter (`irisk/okta.py`)
+- [ ] Connectors for Microsoft Entra sign-in logs / AWS CloudTrail
 - [ ] Peer groups learned by clustering access patterns, not just job titles
 - [ ] Risk decay over time and per-session continuous re-evaluation
 - [ ] SIEM export (CEF / Splunk HEC)

@@ -61,3 +61,36 @@ def test_blocked_activity_does_not_poison_baseline():
     eng.process({**BASE, **PUNE, "user": "u1", "ts": t, "device": "laptop-1"})
     eng.process({**BASE, **MOSCOW, "user": "u1", "ts": t + 600, "device": "x", "asn": "AS-CLOUD-HOSTING"})
     assert "RU" not in eng.users["u1"].countries
+
+
+# ---------------------------------------------------------------- real identity-provider logs (Okta)
+from pathlib import Path
+
+from irisk import okta
+
+EX = Path(__file__).resolve().parent.parent / "examples"
+
+
+def test_okta_event_mapping():
+    ev = {"uuid": "u1", "published": "2026-09-30T20:31:00.000Z", "eventType": "user.mfa.okta_verify.deny_push",
+          "actor": {"alternateId": "priya@acme.example"}, "outcome": {"result": "DENY"},
+          "client": {"ipAddress": "164.92.0.7", "userAgent": {"os": "Linux", "browser": "FIREFOX"},
+                     "geographicalContext": {"city": "Amsterdam", "country": "Netherlands",
+                                             "geolocation": {"lat": 52.37, "lon": 4.9}}},
+          "securityContext": {"asNumber": 14061, "asOrg": "DigitalOcean, LLC", "isProxy": False}}
+    e = okta.to_engine_event(ev, {"priya@acme.example": "sales"})
+    assert e["user"] == "priya@acme.example" and e["role"] == "sales"
+    assert e["mfa"] == "denied" and e["success"] == 0 and e["action"] == "login"
+    assert e["asn"] == "AS-CLOUD-HOSTING" and e["country"] == "Netherlands" and e["lat"] == 52.37
+    assert okta.to_engine_event({**ev, "eventType": "user.account.update_profile"}, {}) is None
+
+
+def test_okta_replay_blocks_push_bombing_but_not_a_business_trip():
+    rows = okta.replay(okta.load_events(EX / "okta_system_log_sample.json"), okta.load_roles(EX / "roles.csv"))
+    rahul = [r for r in rows if r["user"].startswith("rahul")]
+    assert rahul and all(r["decision"] == "allow" for r in rahul)          # incl. the Bengaluru trip
+    blocked = [r for r in rows if r["decision"] == "block_and_alert"]
+    assert len(blocked) == 1 and blocked[0]["event"] == "user.authentication.auth_via_mfa"
+    assert "MFA pushes denied recently, then approved" in blocked[0]["reasons"]
+    first_attack = next(r for r in rows if r["country"] == "Netherlands")
+    assert first_attack["decision"] != "allow"                               # stepped up before any push

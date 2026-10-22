@@ -1,0 +1,8860 @@
+[
+ {
+  "uuid": "5eb561a4-2163-6369-8b52-9b4a97b75092",
+  "published": "2026-09-01T03:15:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "a02f34a6-795b-929e-9a9a-80fdea7b5bf5",
+  "published": "2026-09-01T03:15:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "42650644-781f-9c58-d664-5fa9e8a8529f",
+  "published": "2026-09-01T03:20:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSale",
+    "type": "AppInstance",
+    "alternateId": "Salesforce",
+    "displayName": "Salesforce"
+   }
+  ]
+ },
+ {
+  "uuid": "8cb4a0d7-d622-5675-8a7d-43b578633074",
+  "published": "2026-09-01T03:45:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "dc6bf1e1-a399-f82a-65aa-9c8279f248b0",
+  "published": "2026-09-01T03:45:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "ed038db4-de38-3784-26d0-b944a2863a7f",
+  "published": "2026-09-01T03:50:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaGitH",
+    "type": "AppInstance",
+    "alternateId": "GitHub",
+    "displayName": "GitHub"
+   }
+  ]
+ },
+ {
+  "uuid": "fee29476-3116-2427-3bfd-1d338d0038ec",
+  "published": "2026-09-01T04:00:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "03e0a813-bdc2-ae99-63d2-e49085ef3430",
+  "published": "2026-09-01T04:30:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaJira",
+    "type": "AppInstance",
+    "alternateId": "Jira",
+    "displayName": "Jira"
+   }
+  ]
+ },
+ {
+  "uuid": "93b05a04-cd08-5b71-ba66-76b3651c5253",
+  "published": "2026-09-02T03:27:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "2257989f-ef82-9c88-f6ce-d90a71d2af72",
+  "published": "2026-09-02T03:27:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "378c74dc-7eb0-adf4-22ce-dafb092fdddf",
+  "published": "2026-09-02T03:32:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "c21b6092-28ce-6f24-1064-5d51c6f8da3e",
+  "published": "2026-09-02T03:42:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "4d1fe09f-0af4-38d2-9752-4d6af51e8722",
+  "published": "2026-09-02T03:42:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "eb8f624f-b804-d820-9841-811779061596",
+  "published": "2026-09-02T03:47:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSale",
+    "type": "AppInstance",
+    "alternateId": "Salesforce",
+    "displayName": "Salesforce"
+   }
+  ]
+ },
+ {
+  "uuid": "6fa84dca-ac0a-e4e2-f729-b4c8420b0ebe",
+  "published": "2026-09-02T04:12:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaGitH",
+    "type": "AppInstance",
+    "alternateId": "GitHub",
+    "displayName": "GitHub"
+   }
+  ]
+ },
+ {
+  "uuid": "c9c18070-b6d1-3089-633a-50eee0f9e038",
+  "published": "2026-09-02T04:27:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "b2109307-abd8-952c-9b16-f809fdb17f54",
+  "published": "2026-09-03T03:17:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "538e504e-dc52-bdca-b2d8-7d5e29c0e596",
+  "published": "2026-09-03T03:17:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "a20ab57c-360c-4979-a7cf-94d7b6bcb64f",
+  "published": "2026-09-03T03:22:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaJira",
+    "type": "AppInstance",
+    "alternateId": "Jira",
+    "displayName": "Jira"
+   }
+  ]
+ },
+ {
+  "uuid": "6bd0638b-4d10-0d8f-daf0-105ba06c05a1",
+  "published": "2026-09-03T03:49:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "92f3277b-62c8-2185-d55e-c1a581daad10",
+  "published": "2026-09-03T03:49:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "56363b4b-e779-c470-3b7d-ae0495918694",
+  "published": "2026-09-03T03:54:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "445fad2a-92d3-043a-fcf2-49f3d4e441c3",
+  "published": "2026-09-03T04:02:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaGitH",
+    "type": "AppInstance",
+    "alternateId": "GitHub",
+    "displayName": "GitHub"
+   }
+  ]
+ },
+ {
+  "uuid": "07564931-edcf-6109-ea6d-5547ae966193",
+  "published": "2026-09-03T04:34:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSale",
+    "type": "AppInstance",
+    "alternateId": "Salesforce",
+    "displayName": "Salesforce"
+   }
+  ]
+ },
+ {
+  "uuid": "c2fa7b1f-9d52-00ef-9ae0-85bf0b500a3f",
+  "published": "2026-09-04T03:07:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "961cadbc-b7eb-b70c-60b7-d02b0b813439",
+  "published": "2026-09-04T03:07:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "0938233c-ff9e-4840-3c67-523f81633acf",
+  "published": "2026-09-04T03:12:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "da9bf98c-7b64-71e2-103e-f3c21fdaf625",
+  "published": "2026-09-04T03:18:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "16a91f39-7bc7-3a83-fd63-ed5ba385ac4b",
+  "published": "2026-09-04T03:18:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "0526ef70-2698-8f4f-e5a8-181b691406be",
+  "published": "2026-09-04T03:23:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "1badb4f5-13b4-5a39-01da-01354f468977",
+  "published": "2026-09-04T03:52:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaJira",
+    "type": "AppInstance",
+    "alternateId": "Jira",
+    "displayName": "Jira"
+   }
+  ]
+ },
+ {
+  "uuid": "6a4a5ed7-c4cf-8b96-6d59-298c4b3c74f7",
+  "published": "2026-09-04T04:03:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSale",
+    "type": "AppInstance",
+    "alternateId": "Salesforce",
+    "displayName": "Salesforce"
+   }
+  ]
+ },
+ {
+  "uuid": "6072c48f-60b6-cbb1-dc98-da8ae58b7c6a",
+  "published": "2026-09-07T03:08:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "62dd8a70-8523-80c4-deb1-35fa75dd67de",
+  "published": "2026-09-07T03:08:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "cfbf40b8-f0cc-8de3-f90e-e1f29ec09609",
+  "published": "2026-09-07T03:13:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaJira",
+    "type": "AppInstance",
+    "alternateId": "Jira",
+    "displayName": "Jira"
+   }
+  ]
+ },
+ {
+  "uuid": "3287d050-f2ea-d0a8-0808-5f68891ba6ad",
+  "published": "2026-09-07T03:38:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "9c4792da-4aa7-1c38-686e-80a9f8af8c79",
+  "published": "2026-09-07T03:38:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "de26c45b-fad9-d3a9-0add-12e3b09258ce",
+  "published": "2026-09-07T03:43:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "a260db3c-6e62-91d2-4573-f54181cc8265",
+  "published": "2026-09-07T03:53:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaGitH",
+    "type": "AppInstance",
+    "alternateId": "GitHub",
+    "displayName": "GitHub"
+   }
+  ]
+ },
+ {
+  "uuid": "f56ab44e-5c35-d7ed-5057-326c56fe09f7",
+  "published": "2026-09-07T04:23:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSale",
+    "type": "AppInstance",
+    "alternateId": "Salesforce",
+    "displayName": "Salesforce"
+   }
+  ]
+ },
+ {
+  "uuid": "0f616fb4-221d-e112-a1d6-956c96d60464",
+  "published": "2026-09-08T03:39:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "775c303c-551b-7f9d-a099-6d52a22f3572",
+  "published": "2026-09-08T03:39:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "bcefd0a7-4767-9714-b4fa-b1019bde8163",
+  "published": "2026-09-08T03:44:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "4d14075d-efba-436b-3cd5-b001b732f694",
+  "published": "2026-09-08T03:46:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "85689935-421b-8cb9-fa50-ecd76ffc71e4",
+  "published": "2026-09-08T03:46:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "fcc9e97f-6a4b-3989-c9d4-59c502eee0ab",
+  "published": "2026-09-08T03:51:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "0f81f60c-96e1-6894-05ad-c0117d500f7c",
+  "published": "2026-09-08T04:24:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaJira",
+    "type": "AppInstance",
+    "alternateId": "Jira",
+    "displayName": "Jira"
+   }
+  ]
+ },
+ {
+  "uuid": "606363ab-0522-2fb2-509b-bd4d947899a4",
+  "published": "2026-09-08T04:31:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSale",
+    "type": "AppInstance",
+    "alternateId": "Salesforce",
+    "displayName": "Salesforce"
+   }
+  ]
+ },
+ {
+  "uuid": "c5b3b5d3-1ad8-df8e-608d-9499c98c9e51",
+  "published": "2026-09-09T03:19:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "91bae46a-f8ab-ffd6-06e4-4edfd0247e4c",
+  "published": "2026-09-09T03:19:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "a75a68a1-38f8-3d74-8000-b3d94f5d410c",
+  "published": "2026-09-09T03:24:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaJira",
+    "type": "AppInstance",
+    "alternateId": "Jira",
+    "displayName": "Jira"
+   }
+  ]
+ },
+ {
+  "uuid": "40498cb3-5e81-9615-f69b-31ce0570ceee",
+  "published": "2026-09-09T03:43:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "97b9580f-4c73-6db3-74d0-df35a0c2995f",
+  "published": "2026-09-09T03:43:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "c2134f15-500b-2f29-2f6c-48f65d2c2938",
+  "published": "2026-09-09T03:48:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "53e9cfd2-3d1b-2085-44f5-f725cdc656fb",
+  "published": "2026-09-09T04:04:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaGitH",
+    "type": "AppInstance",
+    "alternateId": "GitHub",
+    "displayName": "GitHub"
+   }
+  ]
+ },
+ {
+  "uuid": "439e7fa9-987a-a6bd-d805-f5d25e80dfff",
+  "published": "2026-09-09T04:28:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSale",
+    "type": "AppInstance",
+    "alternateId": "Salesforce",
+    "displayName": "Salesforce"
+   }
+  ]
+ },
+ {
+  "uuid": "b2b47ae7-a648-2fe6-6f6b-8421ad9593b4",
+  "published": "2026-09-10T03:11:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "526c5cc5-99c9-0e88-1a12-4c1518d675a4",
+  "published": "2026-09-10T03:11:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "f5efd434-db04-5aae-cf4c-c239703cff0b",
+  "published": "2026-09-10T03:16:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "737b6ed7-9182-c3c8-e288-b16437d02410",
+  "published": "2026-09-10T03:41:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "1ef491a6-c979-4969-399b-6cad454608a5",
+  "published": "2026-09-10T03:41:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "d6a66353-d611-8814-ce88-f3e750ad12d3",
+  "published": "2026-09-10T03:46:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaGitH",
+    "type": "AppInstance",
+    "alternateId": "GitHub",
+    "displayName": "GitHub"
+   }
+  ]
+ },
+ {
+  "uuid": "bdf84ab5-5632-a446-1477-7e962b56363c",
+  "published": "2026-09-10T03:56:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSale",
+    "type": "AppInstance",
+    "alternateId": "Salesforce",
+    "displayName": "Salesforce"
+   }
+  ]
+ },
+ {
+  "uuid": "4751d092-dd1d-4096-2eff-832f932867d7",
+  "published": "2026-09-10T04:26:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaJira",
+    "type": "AppInstance",
+    "alternateId": "Jira",
+    "displayName": "Jira"
+   }
+  ]
+ },
+ {
+  "uuid": "15e58ecb-a456-0002-d3f4-4c52cea663ee",
+  "published": "2026-09-11T03:21:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "96e835e6-5864-742b-9e8c-8b63ce66e9ee",
+  "published": "2026-09-11T03:21:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "d997c6f7-cb3a-88f6-84b5-b4de4abcc4e4",
+  "published": "2026-09-11T03:26:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSale",
+    "type": "AppInstance",
+    "alternateId": "Salesforce",
+    "displayName": "Salesforce"
+   }
+  ]
+ },
+ {
+  "uuid": "68d6710e-917e-3916-6b76-1fc54a5792b2",
+  "published": "2026-09-11T03:26:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "27ef79cb-69cb-c6d1-ebad-40d009196da4",
+  "published": "2026-09-11T03:26:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "e1464134-d521-505f-f17a-002b7a33c67c",
+  "published": "2026-09-11T03:31:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaGitH",
+    "type": "AppInstance",
+    "alternateId": "GitHub",
+    "displayName": "GitHub"
+   }
+  ]
+ },
+ {
+  "uuid": "a25994fc-58aa-ac81-76f7-f138456bb11b",
+  "published": "2026-09-11T04:06:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "6f31b692-8298-956c-fca6-5f8e9f66ad57",
+  "published": "2026-09-11T04:11:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaJira",
+    "type": "AppInstance",
+    "alternateId": "Jira",
+    "displayName": "Jira"
+   }
+  ]
+ },
+ {
+  "uuid": "08ff3aad-0b8a-276b-3e99-c6c8cf68bc28",
+  "published": "2026-09-14T03:07:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "8325f276-b196-b0c7-cd8e-5f01e752f00d",
+  "published": "2026-09-14T03:07:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "7b25f34a-035d-7017-0ca2-a6b393b337fb",
+  "published": "2026-09-14T03:12:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaGitH",
+    "type": "AppInstance",
+    "alternateId": "GitHub",
+    "displayName": "GitHub"
+   }
+  ]
+ },
+ {
+  "uuid": "b79e4444-ed68-97d8-fc5a-b8f2f33dc30a",
+  "published": "2026-09-14T03:35:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "74e8681a-beda-9894-0846-008638daf051",
+  "published": "2026-09-14T03:35:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "116ce129-dc8d-4dd1-3a3b-3bc4e3c3a607",
+  "published": "2026-09-14T03:40:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "80d0dfba-2bfc-7ffd-1eed-a989becbde01",
+  "published": "2026-09-14T03:52:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "49799084-f891-1b04-96b3-952ddba4a636",
+  "published": "2026-09-14T04:20:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSale",
+    "type": "AppInstance",
+    "alternateId": "Salesforce",
+    "displayName": "Salesforce"
+   }
+  ]
+ },
+ {
+  "uuid": "1f49e090-3284-75a7-3886-8e9b5a124b1d",
+  "published": "2026-09-15T03:03:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "1e84949c-d11a-8404-e33c-37f188ddf918",
+  "published": "2026-09-15T03:03:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "e3bf018d-ebf8-e3d9-4615-0f34caab02c8",
+  "published": "2026-09-15T03:08:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaGitH",
+    "type": "AppInstance",
+    "alternateId": "GitHub",
+    "displayName": "GitHub"
+   }
+  ]
+ },
+ {
+  "uuid": "86640cb0-0514-90ea-a9b3-8f203d3221cc",
+  "published": "2026-09-15T03:19:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "f0651621-0da1-9205-69eb-8cb4897897da",
+  "published": "2026-09-15T03:19:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "dc960f12-f8d4-5cb9-40a2-30e6201a95cc",
+  "published": "2026-09-15T03:24:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSale",
+    "type": "AppInstance",
+    "alternateId": "Salesforce",
+    "displayName": "Salesforce"
+   }
+  ]
+ },
+ {
+  "uuid": "ebb679b4-d2d0-d097-20e4-69aace595c72",
+  "published": "2026-09-15T03:48:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaJira",
+    "type": "AppInstance",
+    "alternateId": "Jira",
+    "displayName": "Jira"
+   }
+  ]
+ },
+ {
+  "uuid": "c846756a-cfc1-d550-7a29-9d748a7db67f",
+  "published": "2026-09-15T04:04:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "dcd06050-9226-31c6-a0ec-66f37ccce344",
+  "published": "2026-09-16T03:00:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "207a1cde-c676-7d96-0e09-92e3db65d2a4",
+  "published": "2026-09-16T03:00:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "457a46a7-c1a9-425a-0cc8-557466789723",
+  "published": "2026-09-16T03:00:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "1183c186-0cc1-e033-1fe7-81540bd2c551",
+  "published": "2026-09-16T03:00:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "6c48ae19-8509-39dc-86fa-ea979e3b164d",
+  "published": "2026-09-16T03:05:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSale",
+    "type": "AppInstance",
+    "alternateId": "Salesforce",
+    "displayName": "Salesforce"
+   }
+  ]
+ },
+ {
+  "uuid": "83f18d61-160c-7c39-b674-c4f4dabd2a4c",
+  "published": "2026-09-16T03:05:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "c6c88cfe-52b7-bdbe-790f-f9b20d0c8ea7",
+  "published": "2026-09-16T03:45:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "2833e1d5-50de-9398-7d70-15fc808aefcf",
+  "published": "2026-09-16T03:45:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaGitH",
+    "type": "AppInstance",
+    "alternateId": "GitHub",
+    "displayName": "GitHub"
+   }
+  ]
+ },
+ {
+  "uuid": "a59c2179-62c3-995a-59ee-1cce125fdb0f",
+  "published": "2026-09-17T03:20:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "5c5fa7d2-4dda-b100-962c-470663bf2ffe",
+  "published": "2026-09-17T03:20:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "1fae68cf-6dbf-42c0-542a-af09fcef0f2a",
+  "published": "2026-09-17T03:25:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "91157d5f-1474-683a-cb98-4da361574803",
+  "published": "2026-09-17T03:46:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "75f82893-5f8e-ec2c-0aff-87582db5db05",
+  "published": "2026-09-17T03:46:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "9f781c98-0b1e-d724-cd18-e1a9a2fd39d9",
+  "published": "2026-09-17T03:51:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaJira",
+    "type": "AppInstance",
+    "alternateId": "Jira",
+    "displayName": "Jira"
+   }
+  ]
+ },
+ {
+  "uuid": "b74e9504-00e4-a64e-8e36-f2c720ab0e21",
+  "published": "2026-09-17T04:05:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSale",
+    "type": "AppInstance",
+    "alternateId": "Salesforce",
+    "displayName": "Salesforce"
+   }
+  ]
+ },
+ {
+  "uuid": "5f56ed31-0d95-a701-6e7c-eb10e2f416a7",
+  "published": "2026-09-17T04:31:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "e13201b6-215f-a8a3-6d04-d65c3974f660",
+  "published": "2026-09-18T03:27:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "5fcde90a-5358-38c4-efbd-6b850731323e",
+  "published": "2026-09-18T03:27:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "1f867fd0-b0c8-3cf5-76d2-16e41f17692a",
+  "published": "2026-09-18T03:32:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaJira",
+    "type": "AppInstance",
+    "alternateId": "Jira",
+    "displayName": "Jira"
+   }
+  ]
+ },
+ {
+  "uuid": "50a078d8-b3ef-fcad-c292-37ff7f03ca9e",
+  "published": "2026-09-18T03:40:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "6b153e7a-b1b2-0f01-f346-24556ba6cc6d",
+  "published": "2026-09-18T03:40:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "4524ab0a-892c-a38f-37f9-61cd3ebdc77a",
+  "published": "2026-09-18T03:45:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "a98bcfb9-bb45-628c-d02f-4c38f0665d75",
+  "published": "2026-09-18T04:12:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "cd9a68b4-1253-21dc-9703-d20db1f69af3",
+  "published": "2026-09-18T04:25:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSale",
+    "type": "AppInstance",
+    "alternateId": "Salesforce",
+    "displayName": "Salesforce"
+   }
+  ]
+ },
+ {
+  "uuid": "1bcf238a-aae5-50d5-605d-afd9cadf4619",
+  "published": "2026-09-21T03:33:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "882f45f9-9058-13c6-5182-01e1bbd61184",
+  "published": "2026-09-21T03:33:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "6031daea-e166-5865-a8c1-c974196bb2b4",
+  "published": "2026-09-21T03:36:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "576b7da1-0603-44bf-d1c7-3e662ddd02b6",
+  "published": "2026-09-21T03:36:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "c638c9ca-3c68-8c4b-24bd-9e93793a6af9",
+  "published": "2026-09-21T03:38:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSale",
+    "type": "AppInstance",
+    "alternateId": "Salesforce",
+    "displayName": "Salesforce"
+   }
+  ]
+ },
+ {
+  "uuid": "7b5f2ea9-ac6c-c64e-1d76-f9d1d80caa4d",
+  "published": "2026-09-21T03:41:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaGitH",
+    "type": "AppInstance",
+    "alternateId": "GitHub",
+    "displayName": "GitHub"
+   }
+  ]
+ },
+ {
+  "uuid": "17802181-86f6-ff96-0b58-167263801bf2",
+  "published": "2026-09-21T04:18:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "48d4a701-f3d1-3a7b-b243-f13dd6100535",
+  "published": "2026-09-21T04:21:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaJira",
+    "type": "AppInstance",
+    "alternateId": "Jira",
+    "displayName": "Jira"
+   }
+  ]
+ },
+ {
+  "uuid": "3dfbf921-13cc-6858-d3fb-b2492e302620",
+  "published": "2026-09-22T03:36:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "3ffdc6eb-a55e-7a97-2e05-910aff93d821",
+  "published": "2026-09-22T03:36:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "0948f14b-16ba-a014-cc7a-b32f4ca44e40",
+  "published": "2026-09-22T03:37:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "82e63e71-904a-896f-c475-8a8dff09f015",
+  "published": "2026-09-22T03:37:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "658a2d34-9975-c976-5e12-9a3740bdcb74",
+  "published": "2026-09-22T03:41:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "ef3f7a40-1993-edb1-bfbc-2a588df13f02",
+  "published": "2026-09-22T03:42:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSale",
+    "type": "AppInstance",
+    "alternateId": "Salesforce",
+    "displayName": "Salesforce"
+   }
+  ]
+ },
+ {
+  "uuid": "6b104fc5-8e7f-dffb-59ac-3e68f052e38f",
+  "published": "2026-09-22T04:21:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaJira",
+    "type": "AppInstance",
+    "alternateId": "Jira",
+    "displayName": "Jira"
+   }
+  ]
+ },
+ {
+  "uuid": "5301d7a8-8cd4-88cc-0fa6-d6938da65a44",
+  "published": "2026-09-22T04:22:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "f91a3a47-3c3a-447d-8014-4a61601545c4",
+  "published": "2026-09-23T03:05:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "bf563222-d7f6-5919-69af-5117edf305c1",
+  "published": "2026-09-23T03:05:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "946f69eb-c190-d1df-9182-fbfab0dac43a",
+  "published": "2026-09-23T03:10:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSale",
+    "type": "AppInstance",
+    "alternateId": "Salesforce",
+    "displayName": "Salesforce"
+   }
+  ]
+ },
+ {
+  "uuid": "e5bc175c-66ab-56fa-a498-917327fb0f58",
+  "published": "2026-09-23T03:30:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Bengaluru",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 12.9716,
+     "lon": 77.5946
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "188a543c-299f-1078-263a-521ce336d0f4",
+  "published": "2026-09-23T03:30:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Bengaluru",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 12.9716,
+     "lon": 77.5946
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "f3608d48-846a-c00d-b2da-00aeeaa73d79",
+  "published": "2026-09-23T03:35:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Bengaluru",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 12.9716,
+     "lon": 77.5946
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "af80d1cb-8460-256f-ec86-d01cac81d075",
+  "published": "2026-09-23T03:50:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "dbacc8f7-b80a-8700-9622-c7ea716bf4a3",
+  "published": "2026-09-23T04:15:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Bengaluru",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 12.9716,
+     "lon": 77.5946
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaJira",
+    "type": "AppInstance",
+    "alternateId": "Jira",
+    "displayName": "Jira"
+   }
+  ]
+ },
+ {
+  "uuid": "32fd7325-c086-80b8-4471-883f22e38f40",
+  "published": "2026-09-24T03:11:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "5099d8f4-83ff-8f4a-95eb-04282584a43f",
+  "published": "2026-09-24T03:11:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "69c78514-daf4-8e79-b490-b8faabdfe39e",
+  "published": "2026-09-24T03:16:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSale",
+    "type": "AppInstance",
+    "alternateId": "Salesforce",
+    "displayName": "Salesforce"
+   }
+  ]
+ },
+ {
+  "uuid": "05eb811a-4ea6-7324-37b4-f408e3b05135",
+  "published": "2026-09-24T03:17:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Bengaluru",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 12.9716,
+     "lon": 77.5946
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "61fbe92f-cdd9-4986-7abf-d4d544a1c8d7",
+  "published": "2026-09-24T03:17:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Bengaluru",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 12.9716,
+     "lon": 77.5946
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "52715ad0-3d23-a847-5c47-c90691e43dd0",
+  "published": "2026-09-24T03:22:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Bengaluru",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 12.9716,
+     "lon": 77.5946
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaGitH",
+    "type": "AppInstance",
+    "alternateId": "GitHub",
+    "displayName": "GitHub"
+   }
+  ]
+ },
+ {
+  "uuid": "95ab82e9-95a6-a34e-da88-1dc29860aae5",
+  "published": "2026-09-24T03:56:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "24c3a235-dd22-2527-c632-44e37b8b6358",
+  "published": "2026-09-24T04:02:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Bengaluru",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 12.9716,
+     "lon": 77.5946
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaJira",
+    "type": "AppInstance",
+    "alternateId": "Jira",
+    "displayName": "Jira"
+   }
+  ]
+ },
+ {
+  "uuid": "e417d4f1-3ac7-2a03-e930-45ed77a7365a",
+  "published": "2026-09-25T03:02:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "c6ff46a4-b7ba-6c95-a5f3-b3fa3c1a7547",
+  "published": "2026-09-25T03:02:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "411171b4-da97-fa80-37a5-ae35f56e5393",
+  "published": "2026-09-25T03:07:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaJira",
+    "type": "AppInstance",
+    "alternateId": "Jira",
+    "displayName": "Jira"
+   }
+  ]
+ },
+ {
+  "uuid": "b394c3b1-7ac6-66bf-b292-c157fdc0754a",
+  "published": "2026-09-25T03:26:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "949cc376-77d2-519b-34ac-7eb999581b2e",
+  "published": "2026-09-25T03:26:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "db4d584b-1287-2361-b880-62f1fe277324",
+  "published": "2026-09-25T03:31:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSale",
+    "type": "AppInstance",
+    "alternateId": "Salesforce",
+    "displayName": "Salesforce"
+   }
+  ]
+ },
+ {
+  "uuid": "c69ae2d6-308b-24cb-e3e2-55b43df9ba79",
+  "published": "2026-09-25T03:47:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaGitH",
+    "type": "AppInstance",
+    "alternateId": "GitHub",
+    "displayName": "GitHub"
+   }
+  ]
+ },
+ {
+  "uuid": "bbcc73a3-c87a-3b51-6677-9722f292fba1",
+  "published": "2026-09-25T04:11:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "d57c6140-43a1-0696-17b7-68781e331eed",
+  "published": "2026-09-28T03:05:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "5b4e241d-093f-85d1-4ab1-016ce9eb979b",
+  "published": "2026-09-28T03:05:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "54db317f-55b5-9469-0785-b89e01c32149",
+  "published": "2026-09-28T03:10:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "b46977d0-9f35-5e74-2feb-67af2331df81",
+  "published": "2026-09-28T03:16:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "e656abc1-0969-1290-dbcc-eb43acd62c6a",
+  "published": "2026-09-28T03:16:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "2eea9771-503c-14af-0b86-9300dd771fce",
+  "published": "2026-09-28T03:21:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "13f59974-7c63-fa29-6132-6cc06fac33a8",
+  "published": "2026-09-28T03:50:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaJira",
+    "type": "AppInstance",
+    "alternateId": "Jira",
+    "displayName": "Jira"
+   }
+  ]
+ },
+ {
+  "uuid": "cc848ca9-ba9d-acdc-1749-07806c5d1484",
+  "published": "2026-09-28T04:01:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSale",
+    "type": "AppInstance",
+    "alternateId": "Salesforce",
+    "displayName": "Salesforce"
+   }
+  ]
+ },
+ {
+  "uuid": "f490fc43-be0b-e92a-95c9-778ba4f112e6",
+  "published": "2026-09-29T03:13:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "8b5af321-201b-e10c-6413-55487d6f8697",
+  "published": "2026-09-29T03:13:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "aa59d208-1384-b9cd-4656-c0cbe2234703",
+  "published": "2026-09-29T03:18:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "8716984f-18ce-cf10-403c-d74fe8a4a067",
+  "published": "2026-09-29T03:33:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "adad7a9d-5fcd-1af9-b361-3be8f0f8387d",
+  "published": "2026-09-29T03:33:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "ab82ef46-ad06-f17d-a9b3-ed9b4ba81e31",
+  "published": "2026-09-29T03:38:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "e31ed1aa-703c-3e54-1cce-b3716ebc559d",
+  "published": "2026-09-29T03:58:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSale",
+    "type": "AppInstance",
+    "alternateId": "Salesforce",
+    "displayName": "Salesforce"
+   }
+  ]
+ },
+ {
+  "uuid": "d13ddea2-ce59-9ed6-f1b8-62d2a771ae15",
+  "published": "2026-09-29T04:18:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaJira",
+    "type": "AppInstance",
+    "alternateId": "Jira",
+    "displayName": "Jira"
+   }
+  ]
+ },
+ {
+  "uuid": "f6197c0e-f1c7-6b60-c112-93411b6f390f",
+  "published": "2026-09-30T03:16:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "894242ab-90e8-7a7f-ac3e-433a56a9ed2c",
+  "published": "2026-09-30T03:16:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "b7d4f68f-0f3c-e8a5-5a27-030882390bbc",
+  "published": "2026-09-30T03:21:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSale",
+    "type": "AppInstance",
+    "alternateId": "Salesforce",
+    "displayName": "Salesforce"
+   }
+  ]
+ },
+ {
+  "uuid": "baee5a34-a54a-7c2a-a555-66e72e963a3a",
+  "published": "2026-09-30T03:47:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "5eeb653c-2dd9-c98d-2648-6107a181a49d",
+  "published": "2026-09-30T03:47:20.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "8f4dd469-ee8d-5564-1bb4-085e1f85807e",
+  "published": "2026-09-30T03:52:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaJira",
+    "type": "AppInstance",
+    "alternateId": "Jira",
+    "displayName": "Jira"
+   }
+  ]
+ },
+ {
+  "uuid": "90ff072e-ba57-4270-adb5-0c854b5f5910",
+  "published": "2026-09-30T04:01:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 24560,
+   "asOrg": "Bharti Airtel Ltd.",
+   "isp": "Bharti Airtel",
+   "domain": "airtel.in",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "a51d4257-54df-24ec-ebba-3c732431c216",
+  "published": "2026-09-30T04:32:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00urahul",
+   "type": "User",
+   "alternateId": "rahul@acme.example",
+   "displayName": "Rahul"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Windows 10)",
+    "os": "Windows 10",
+    "browser": "CHROME"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "49.36.0.10",
+   "geographicalContext": {
+    "city": "Pune",
+    "state": null,
+    "country": "India",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 18.5204,
+     "lon": 73.8567
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 55836,
+   "asOrg": "Reliance Jio Infocomm Limited",
+   "isp": "Reliance Jio",
+   "domain": "jio.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSlac",
+    "type": "AppInstance",
+    "alternateId": "Slack",
+    "displayName": "Slack"
+   }
+  ]
+ },
+ {
+  "uuid": "6b8e21f2-98f1-5b0f-a64b-747bb8713476",
+  "published": "2026-09-30T20:30:00.000Z",
+  "eventType": "user.session.start",
+  "displayMessage": "user.session.start",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Linux)",
+    "os": "Linux",
+    "browser": "FIREFOX"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "164.92.0.7",
+   "geographicalContext": {
+    "city": "Amsterdam",
+    "state": null,
+    "country": "Netherlands",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 52.3676,
+     "lon": 4.9041
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 14061,
+   "asOrg": "DigitalOcean, LLC",
+   "isp": "DigitalOcean",
+   "domain": "digitalocean.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "2fd8dee2-a5c1-b204-4cf1-e9c08e0f7cf9",
+  "published": "2026-09-30T20:31:00.000Z",
+  "eventType": "user.mfa.okta_verify.deny_push",
+  "displayMessage": "user.mfa.okta_verify.deny_push",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Linux)",
+    "os": "Linux",
+    "browser": "FIREFOX"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "164.92.0.7",
+   "geographicalContext": {
+    "city": "Amsterdam",
+    "state": null,
+    "country": "Netherlands",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 52.3676,
+     "lon": 4.9041
+    }
+   }
+  },
+  "outcome": {
+   "result": "DENY",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 14061,
+   "asOrg": "DigitalOcean, LLC",
+   "isp": "DigitalOcean",
+   "domain": "digitalocean.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "c83f0249-4ffc-3f00-7b7c-c345752c1460",
+  "published": "2026-09-30T20:33:00.000Z",
+  "eventType": "user.mfa.okta_verify.deny_push",
+  "displayMessage": "user.mfa.okta_verify.deny_push",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Linux)",
+    "os": "Linux",
+    "browser": "FIREFOX"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "164.92.0.7",
+   "geographicalContext": {
+    "city": "Amsterdam",
+    "state": null,
+    "country": "Netherlands",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 52.3676,
+     "lon": 4.9041
+    }
+   }
+  },
+  "outcome": {
+   "result": "DENY",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 14061,
+   "asOrg": "DigitalOcean, LLC",
+   "isp": "DigitalOcean",
+   "domain": "digitalocean.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "1b7ff031-118f-8689-b499-7e642d2751e6",
+  "published": "2026-09-30T20:35:00.000Z",
+  "eventType": "user.mfa.okta_verify.deny_push",
+  "displayMessage": "user.mfa.okta_verify.deny_push",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Linux)",
+    "os": "Linux",
+    "browser": "FIREFOX"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "164.92.0.7",
+   "geographicalContext": {
+    "city": "Amsterdam",
+    "state": null,
+    "country": "Netherlands",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 52.3676,
+     "lon": 4.9041
+    }
+   }
+  },
+  "outcome": {
+   "result": "DENY",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 14061,
+   "asOrg": "DigitalOcean, LLC",
+   "isp": "DigitalOcean",
+   "domain": "digitalocean.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "8dc142af-c125-a155-2e65-8af6b740fdcb",
+  "published": "2026-09-30T20:37:00.000Z",
+  "eventType": "user.mfa.okta_verify.deny_push",
+  "displayMessage": "user.mfa.okta_verify.deny_push",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Linux)",
+    "os": "Linux",
+    "browser": "FIREFOX"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "164.92.0.7",
+   "geographicalContext": {
+    "city": "Amsterdam",
+    "state": null,
+    "country": "Netherlands",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 52.3676,
+     "lon": 4.9041
+    }
+   }
+  },
+  "outcome": {
+   "result": "DENY",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 14061,
+   "asOrg": "DigitalOcean, LLC",
+   "isp": "DigitalOcean",
+   "domain": "digitalocean.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "64508f66-bd58-f66f-936b-6c238b0ae742",
+  "published": "2026-09-30T20:41:00.000Z",
+  "eventType": "user.authentication.auth_via_mfa",
+  "displayMessage": "user.authentication.auth_via_mfa",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Linux)",
+    "os": "Linux",
+    "browser": "FIREFOX"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "164.92.0.7",
+   "geographicalContext": {
+    "city": "Amsterdam",
+    "state": null,
+    "country": "Netherlands",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 52.3676,
+     "lon": 4.9041
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 14061,
+   "asOrg": "DigitalOcean, LLC",
+   "isp": "DigitalOcean",
+   "domain": "digitalocean.com",
+   "isProxy": false
+  },
+  "target": []
+ },
+ {
+  "uuid": "4555fa53-440e-7cf7-1990-12f45bf5fef1",
+  "published": "2026-09-30T20:43:00.000Z",
+  "eventType": "user.authentication.sso",
+  "displayMessage": "user.authentication.sso",
+  "severity": "INFO",
+  "actor": {
+   "id": "00upriya",
+   "type": "User",
+   "alternateId": "priya@acme.example",
+   "displayName": "Priya"
+  },
+  "client": {
+   "userAgent": {
+    "rawUserAgent": "Mozilla/5.0 (Linux)",
+    "os": "Linux",
+    "browser": "FIREFOX"
+   },
+   "zone": "null",
+   "device": "Computer",
+   "ipAddress": "164.92.0.7",
+   "geographicalContext": {
+    "city": "Amsterdam",
+    "state": null,
+    "country": "Netherlands",
+    "postalCode": null,
+    "geolocation": {
+     "lat": 52.3676,
+     "lon": 4.9041
+    }
+   }
+  },
+  "outcome": {
+   "result": "SUCCESS",
+   "reason": null
+  },
+  "securityContext": {
+   "asNumber": 14061,
+   "asOrg": "DigitalOcean, LLC",
+   "isp": "DigitalOcean",
+   "domain": "digitalocean.com",
+   "isProxy": false
+  },
+  "target": [
+   {
+    "id": "0oaSale",
+    "type": "AppInstance",
+    "alternateId": "Salesforce",
+    "displayName": "Salesforce"
+   }
+  ]
+ }
+]
