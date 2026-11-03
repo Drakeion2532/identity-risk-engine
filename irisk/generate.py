@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Shubhan Punde · https://github.com/Drakeion2532/identity-risk-engine · MIT licence · sp2532-568b979deb29
 """Synthetic enterprise identity-log generator.
 
 Produces authentication + access events for a 400-person company

@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Shubhan Punde · https://github.com/Drakeion2532/identity-risk-engine · MIT licence · sp2532-568b979deb29
 from irisk.engine import RiskEngine, haversine
 
 BASE = dict(role="engineer", action="login", app="sso", success=1, mfa="approved", asn="AS-CORP-VPN",

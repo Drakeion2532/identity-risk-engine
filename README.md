@@ -120,3 +120,9 @@ tests/          unit tests for each detection
 - [ ] Peer groups learned by clustering access patterns, not just job titles
 - [ ] Risk decay over time and per-session continuous re-evaluation
 - [ ] SIEM export (CEF / Splunk HEC)
+
+## Licence and credit
+
+MIT © 2026 [Shubhan Punde](https://github.com/Drakeion2532). You're welcome to learn from and reuse this code; the licence requires keeping the copyright notice, and presenting the project as your own work is not permitted. To cite it, use [CITATION.cff](CITATION.cff).
+
+<sub>Project ID: sp2532-568b979deb29</sub>

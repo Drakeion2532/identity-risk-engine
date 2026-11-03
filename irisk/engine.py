@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Shubhan Punde · https://github.com/Drakeion2532/identity-risk-engine · MIT licence · sp2532-568b979deb29
 """Streaming identity risk engine.
 
 For every event the engine compares it with the user's OWN history and their

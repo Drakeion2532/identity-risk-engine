@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Shubhan Punde · https://github.com/Drakeion2532/identity-risk-engine · MIT licence · sp2532-568b979deb29
 """Real-time risk API – call it from an IdP hook / SSO gateway on each login.
 
     uvicorn irisk.api:app --port 8002

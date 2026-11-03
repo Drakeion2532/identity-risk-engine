@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Shubhan Punde · https://github.com/Drakeion2532/identity-risk-engine · MIT licence · sp2532-568b979deb29
 """Run the engine on real identity-provider logs: Okta System Log events.
 
 The engine was built and evaluated on synthetic events, but its input is deliberately close to
