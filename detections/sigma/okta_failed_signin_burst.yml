@@ -1,0 +1,26 @@
+title: Okta Burst of Failed Sign-ins for One User
+id: 0c9e7b42-5a61-4f0b-8f6d-3e2c1b9a7d02
+status: experimental
+description: |
+  Detects six or more failed Okta sign-ins for the same account within ten minutes.
+  Mirrors the engine's "brute_force" signal.
+references:
+  - https://github.com/Drakeion2532/identity-risk-engine
+  - https://attack.mitre.org/techniques/T1110/001/
+author: Shubhan Punde
+date: 2026-11-24
+tags:
+  - attack.credential-access
+  - attack.t1110.001
+logsource:
+  product: okta
+  service: okta
+detection:
+  selection:
+    eventtype: user.session.start
+    outcome.result: FAILURE
+  timeframe: 10m
+  condition: selection | count() by actor.alternateid >= 6
+falsepositives:
+  - A user who forgot a recently changed password
+level: medium

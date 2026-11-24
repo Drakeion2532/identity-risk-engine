@@ -121,6 +121,27 @@ tests/          unit tests for each detection
 - [ ] Risk decay over time and per-session continuous re-evaluation
 - [ ] SIEM export (CEF / Splunk HEC)
 
+## Detections you can deploy (Sigma)
+
+The engine's simplest signals are also written as [Sigma](https://github.com/SigmaHQ/sigma) rules in
+[`detections/sigma/`](detections/sigma), so a SOC can run them in its own SIEM (Splunk, Elastic,
+Microsoft Sentinel and others) without running this code. The rules parse cleanly with pySigma, and a
+test keeps their thresholds identical to the engine's.
+
+| Rule | Engine signal | ATT&CK |
+|---|---|---|
+| [MFA push fatigue](detections/sigma/okta_mfa_push_fatigue.yml) | `mfa_fatigue` | T1621 |
+| [Burst of failed sign-ins](detections/sigma/okta_failed_signin_burst.yml) | `brute_force` | T1110.001 |
+| [Failures from 3+ countries](detections/sigma/okta_multi_country_failures.yml) | `multi_country_failures` | T1110.004 |
+| [Sign-in through a proxy / hosting network](detections/sigma/okta_sign_in_from_hosting_provider.yml) | `hosting_asn` | T1078 |
+
+Every reason the engine returns also carries its ATT&CK technique (`"attack": "T1621"`), so an analyst
+can pivot straight to the matching playbook.
+
+## Security checks
+
+CI runs `bandit` and `pip-audit` on every push and weekly; see [SECURITY.md](SECURITY.md).
+
 ## How this was built
 
 I designed the detection logic, threat model and evaluation, and used AI pair-programming (Claude Code) for implementation. Every number in this README was re-run and checked, and the test suite reproduces the key results.

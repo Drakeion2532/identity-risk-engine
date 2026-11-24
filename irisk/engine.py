@@ -32,6 +32,22 @@ SIGNALS = {
     "dormant_reactivation": (0.65, "account inactive for 21+ days suddenly used"),
 }
 SENSITIVE = {"payroll", "erp_finance", "iam_admin", "hrms", "aws_console", "crm"}
+# MITRE ATT&CK technique each signal is evidence for (enterprise matrix)
+ATTACK = {
+    "impossible_travel": ("T1078", "Valid Accounts"),
+    "new_country": ("T1078", "Valid Accounts"),
+    "hosting_asn": ("T1078", "Valid Accounts"),
+    "new_device": ("T1078", "Valid Accounts"),
+    "brute_force": ("T1110.001", "Brute Force: Password Guessing"),
+    "multi_country_failures": ("T1110.004", "Brute Force: Credential Stuffing"),
+    "mfa_fatigue": ("T1621", "Multi-Factor Authentication Request Generation"),
+    "mfa_denied": ("T1621", "Multi-Factor Authentication Request Generation"),
+    "peer_rare_app": ("T1078", "Valid Accounts"),
+    "sensitive_app_first_use": ("T1078", "Valid Accounts"),
+    "bulk_download": ("T1567", "Exfiltration Over Web Service"),
+    "off_hours": ("T1078", "Valid Accounts"),
+    "dormant_reactivation": ("T1078", "Valid Accounts"),
+}
 
 
 def haversine(lat1, lon1, lat2, lon2):
@@ -183,4 +199,5 @@ class RiskEngine:
         return f, reasons, risk
 
     def explain(self, reasons):
-        return [{"signal": r, "weight": SIGNALS[r][0], "why": SIGNALS[r][1]} for r in reasons]
+        return [{"signal": r, "weight": SIGNALS[r][0], "why": SIGNALS[r][1],
+                 "attack": ATTACK[r][0], "technique": ATTACK[r][1]} for r in reasons]

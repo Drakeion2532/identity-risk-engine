@@ -1,0 +1,24 @@
+name: security
+
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "23 3 * * 1"   # weekly, catches newly published CVEs in dependencies
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Static analysis (bandit, medium+ severity)
+        run: |
+          pip install bandit
+          bandit -r . -x ./tests,./.venv -ll
+      - name: Known-vulnerable dependencies (pip-audit)
+        run: |
+          pip install pip-audit
+          pip-audit -r requirements.txt

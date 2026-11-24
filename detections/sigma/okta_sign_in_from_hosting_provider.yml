@@ -1,0 +1,27 @@
+title: Okta Successful Sign-in Through a Proxy or Hosting Network
+id: 2d7b9e64-3c18-4a5f-b6e2-9f1a0c3d5e04
+status: experimental
+description: |
+  Detects a successful Okta sign-in where Okta flags the client as a proxy, a common sign that a
+  stolen session or password is being used from cloud infrastructure rather than a home or office ISP.
+  Mirrors the engine's "hosting_asn" signal.
+references:
+  - https://github.com/Drakeion2532/identity-risk-engine
+  - https://attack.mitre.org/techniques/T1078/
+author: Shubhan Punde
+date: 2026-11-24
+tags:
+  - attack.initial-access
+  - attack.t1078
+logsource:
+  product: okta
+  service: okta
+detection:
+  selection:
+    eventtype: user.session.start
+    outcome.result: SUCCESS
+    securitycontext.isproxy: 'true'
+  condition: selection
+falsepositives:
+  - Approved commercial VPN or secure web gateway egress; add those to an allowlist
+level: medium

@@ -1,0 +1,27 @@
+title: Okta Failed Sign-ins from Three or More Countries
+id: 8a3f5c17-9e24-4b6d-a1c0-7d5e2f8b4c03
+status: experimental
+description: |
+  Detects failed Okta sign-ins for one account coming from three or more countries within ten
+  minutes, typical of credential stuffing through distributed proxies.
+  Mirrors the engine's "multi_country_failures" signal.
+references:
+  - https://github.com/Drakeion2532/identity-risk-engine
+  - https://attack.mitre.org/techniques/T1110/004/
+author: Shubhan Punde
+date: 2026-11-24
+tags:
+  - attack.credential-access
+  - attack.t1110.004
+logsource:
+  product: okta
+  service: okta
+detection:
+  selection:
+    eventtype: user.session.start
+    outcome.result: FAILURE
+  timeframe: 10m
+  condition: selection | count(client.geographicalcontext.country) by actor.alternateid >= 3
+falsepositives:
+  - Corporate VPN egress points in several countries
+level: high
