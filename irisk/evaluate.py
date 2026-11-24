@@ -1,4 +1,4 @@
-# Copyright (c) 2026 Shubhan Punde · https://github.com/Drakeion2532/identity-risk-engine · MIT licence · sp2532-568b979deb29
+# Copyright (c) 2026 Shubhan Punde · MIT licence
 """Replay 60 days of identity events through the engine and evaluate.
 
 Detectors compared on the last 30 days (first 30 days = baseline warm-up):

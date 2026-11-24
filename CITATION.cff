@@ -9,7 +9,3 @@ authors:
 repository-code: "https://github.com/Drakeion2532/identity-risk-engine"
 license: MIT
 date-released: "2026-11-03"
-identifiers:
-  - type: other
-    value: "sp2532-568b979deb29"
-    description: "Project identifier"
