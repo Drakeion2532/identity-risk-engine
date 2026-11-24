@@ -1,0 +1,6 @@
+eventtype="user.mfa.okta_verify.deny_push"
+
+| bin _time span=30m
+| stats count as event_count by _time actor.alternateid
+
+| search event_count >= 3

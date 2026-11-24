@@ -1,26 +1,55 @@
-title: Okta MFA Push Fatigue (Repeated Denied Pushes)
-id: 6f1d2a51-1b3e-4c7a-9d0e-2a4b8c1f7e01
+title: Okta MFA Push Fatigue (Repeated Denied Pushes) (single event)
+id: e31a6622-605a-550a-bd28-93239f036699
 status: experimental
-description: |
-  Detects a user denying several Okta Verify push notifications in a short window, the pattern of an
-  attacker who already has the password and spams MFA prompts until the victim approves.
-  Mirrors the engine's "mfa_fatigue" / "mfa_denied" signals.
+description: 'Base rule: one matching event. On its own this is normal; the correlation
+  below counts them.'
 references:
-  - https://github.com/Drakeion2532/identity-risk-engine
-  - https://attack.mitre.org/techniques/T1621/
+- https://github.com/Drakeion2532/identity-risk-engine
+- https://attack.mitre.org/techniques/T1621/
 author: Shubhan Punde
 date: 2026-11-24
 tags:
-  - attack.credential-access
-  - attack.t1621
+- attack.credential-access
+- attack.t1621
 logsource:
   product: okta
   service: okta
+name: okta_evt_mfa_push_fatigue
 detection:
   selection:
     eventtype: user.mfa.okta_verify.deny_push
-  timeframe: 30m
-  condition: selection | count() by actor.alternateid >= 3
+  condition: selection
+level: informational
+---
+title: Okta MFA Push Fatigue (Repeated Denied Pushes)
+id: 6f1d2a51-1b3e-4c7a-9d0e-2a4b8c1f7e01
+status: experimental
+description: 'Detects a user denying several Okta Verify push notifications in a short
+  window, the pattern of an
+
+  attacker who already has the password and spams MFA prompts until the victim approves.
+
+  Mirrors the engine''s "mfa_fatigue" / "mfa_denied" signals.
+
+  '
+references:
+- https://github.com/Drakeion2532/identity-risk-engine
+- https://attack.mitre.org/techniques/T1621/
+author: Shubhan Punde
+date: 2026-11-24
+tags:
+- attack.credential-access
+- attack.t1621
+correlation:
+  type: event_count
+  rules:
+  - okta_evt_mfa_push_fatigue
+  group-by:
+  - actor.alternateid
+  timespan: 30m
+  condition:
+    gte: 3
 falsepositives:
-  - A user repeatedly denying pushes they did not expect after a legitimate password change
+- A user repeatedly denying pushes they did not expect after a legitimate password
+  change
 level: high

@@ -6,3 +6,5 @@ fastapi>=0.110
 uvicorn>=0.29
 pytest>=7
 pyyaml>=6.0
+pysigma>=0.11
+pysigma-backend-splunk>=1.1

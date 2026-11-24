@@ -125,8 +125,10 @@ tests/          unit tests for each detection
 
 The engine's simplest signals are also written as [Sigma](https://github.com/SigmaHQ/sigma) rules in
 [`detections/sigma/`](detections/sigma), so a SOC can run them in its own SIEM (Splunk, Elastic,
-Microsoft Sentinel and others) without running this code. The rules parse cleanly with pySigma, and a
-test keeps their thresholds identical to the engine's.
+Microsoft Sentinel and others) without running this code. The rules parse cleanly with pySigma, use Sigma
+correlations for the counting rules, and ship as ready-made Splunk searches in
+[`detections/splunk/`](detections/splunk) (`python tools/build_splunk.py`). A test keeps their thresholds identical
+to the engine's.
 
 | Rule | Engine signal | ATT&CK |
 |---|---|---|

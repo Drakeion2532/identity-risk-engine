@@ -1,0 +1,6 @@
+eventtype="user.session.start" outcome.result="FAILURE"
+
+| bin _time span=10m
+| stats dc(client.geographicalcontext.country) as value_count by _time actor.alternateid
+
+| search value_count >= 3

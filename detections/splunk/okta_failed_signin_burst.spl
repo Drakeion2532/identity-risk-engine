@@ -1,0 +1,6 @@
+eventtype="user.session.start" outcome.result="FAILURE"
+
+| bin _time span=10m
+| stats count as event_count by _time actor.alternateid
+
+| search event_count >= 6

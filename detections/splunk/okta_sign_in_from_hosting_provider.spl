@@ -1,0 +1,1 @@
+eventtype="user.session.start" outcome.result="SUCCESS" securitycontext.isproxy="true"
